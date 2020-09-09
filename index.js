@@ -14,8 +14,7 @@ readdirSync(layoutsPath).forEach(dirname => {
   const layout = readFileSync(layoutPath).toString()
   const data = existsSync(dataPath) ? JSON.parse(readFileSync(dataPath).toString()) : {}
   const template = Handlebars.compile(mjml(layout, { filePath: layoutPath }).html)
-  const rendered = template({ ...data })
-  console.log(rendered)
+  const rendered = template(data)
 
   try {
     mkdirSync(join(compiledPath, dirname))
