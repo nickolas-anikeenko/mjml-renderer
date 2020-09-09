@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "date": "11/19/2019",
+      "airports": {
+        "from": "YYZ",
+        "to": "YVR"
+      },
+      "flight_vendor": "VS 701",
+      "status": "Confirmed",
+      "time": {
+        "departure": "07:00 AM",
+        "arrive": "09:23 AM"
+      },
+      "flight_level": {
+        "class": "Economy",
+        "type": "E"
+      },
+      "baggage": "0PC"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+<mjml>
+    <mj-head>
+        <mj-include path="../style/base.mjml"/>
+    </mj-head>
+    <mj-body width="1024px">
+        <mj-wrapper css-class="block-wrapper" padding="0">
+            <mj-section padding="0" background-color="blue">
+                <mj-column>
+                    <mj-text padding="10px 15px" color="white" font-size="18px">Remarks</mj-text>
+                </mj-column>
+            </mj-section>
+            <mj-section padding="0" css-class="padding-0">
+                <mj-column>
+                    {{text}}
+                </mj-column>
+            </mj-section>
+        </mj-wrapper>
+    </mj-body>
+</mjml>
