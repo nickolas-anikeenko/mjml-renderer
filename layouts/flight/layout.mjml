@@ -1,0 +1,114 @@
+<mjml>
+    <mj-head>
+        <mj-include path="../style/base.mjml"/>
+        <mj-include path="../style/format.mjml"/>
+        <mj-include path="../style/tables.mjml"/>
+    </mj-head>
+    <mj-body width="640px">
+        <mj-wrapper css-class="segment-wrapper segment-wrapper-border-light-blue" padding="0">
+            <mj-section css-class="segment-title light-blue-bg">
+                <mj-column padding="0">
+                    <mj-table>
+                        <tr class="columns-3">
+                            <th class="column">
+                                <h1 class="segment-title-h1 white-text align-left">Flight</h1>
+                            </th>
+                            <th class="column">
+                                <h6 class="d5-dynamic-text white-text">{{ flight.duration }}</h6>
+                            </th>
+                            <th class="column">
+                                <h2 class="segment-title-h2 white-text align-right">Not working?</h2>
+                            </th>
+                        </tr>
+                    </mj-table>
+                </mj-column>
+            </mj-section>
+            <mj-section padding="0" css-class="padding-0">
+                <mj-column>
+                    <mj-table css-class="segment-header light-gray-bg">
+                        <tr>
+                            <td class="l2-label blue-text">Delta Air Lines DL1110</td>
+                            <td class="align-right">
+                                <span class="l1-label green-text">Airline record locator</span>
+                                <span class="l1-label blue-text">hqq7yd</span>
+                            </td>
+                        </tr>
+                    </mj-table>
+                </mj-column>
+            </mj-section>
+            <mj-section>
+                <mj-column>
+                    <mj-table css-class="segment-row">
+                        <tr class="columns-3">
+                            <td class="column d8-dynamic-text blue-text align-center">ATL</td>
+                            <td class="column d6-dynamic-text align-center">{{ flight.duration }}</td>
+                            <td class="column d8-dynamic-text blue-text align-center">MCO</td>
+                        </tr>
+                        <tr class="columns-3">
+                            <td class="column d7-dynamic-text gray-text align-center">
+                                Hartsfield-Jackson Atlanta International Airport Atlanta, GA, United states
+                            </td>
+                            <td class="column "></td>
+                            <td class="column d7-dynamic-text gray-text align-center">
+                                Hartsfield-Jackson Atlanta International Airport Atlanta, GA, United states
+                            </td>
+                        </tr>
+                    </mj-table>
+                </mj-column>
+            </mj-section>
+            <mj-section css-class="segment-row no-border">
+                <mj-column>
+                    <mj-text>
+                        <p class="l1-label green-text align-center mb-1">Departure</p>
+                        <p class="d2-dynamic-text gray-text align-center">Monday 15 JAN
+                            <span class="l1-label blue-text">3:55 PM</span>
+                            <span class="d7-dynamic-text gray-text">EDT</span>
+                        </p>
+                        <p class="d2-dynamic-text gray-text align-center">Terminal:
+                            <span class="l1-label blue-text">South Terminal</span>
+                        </p>
+                    </mj-text>
+                </mj-column>
+                <mj-column>
+                    <mj-text>
+                        <p class="l1-label green-text align-center mb-1">Seat</p>
+                        <p class="l2-label blue-text align-center">Assigned at Check-In</p>
+                        <p class="d7-dynamic-text gray-text align-center">Economy</p>
+                        <p class="d7-dynamic-text light-blue-text align-center">Confirmed</p>
+                    </mj-text>
+                </mj-column>
+                <mj-column>
+                    <mj-text>
+                        <p class="l1-label green-text align-center mb-1">Arrival</p>
+                        <p class="d2-dynamic-text gray-text align-center">Monday 15 JAN
+                            <span class="l1-label blue-text">3:55 PM</span>
+                            <span class="d7-dynamic-text gray-text">EDT</span>
+                        </p>
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <mj-section css-class="segment-row no-border">
+                <mj-column>
+                    <mj-text>
+                        <p class="d9-dynamic-text gray-text align-left">CO2 Emission - 177.76 lbs/80.8kgs</p>
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <mj-section css-class="segment-row no-border">
+                <mj-column>
+                    <mj-text>
+                        <div class="note">
+                            <p class="l1-label blue-text align-left">Notes:</p>
+                            <p class="d9-dynamic-text gray-text align-left">
+                                Please include a copy if this receipt with your expense report.
+                                Fares are subject to change ar any time. Airfares are not guaranteed until the ticket
+                                has been issued.
+                                Report any medical emergency to ABCcompany@emergencies.com
+                            </p>
+                        </div>
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+        </mj-wrapper>
+    </mj-body>
+</mjml>

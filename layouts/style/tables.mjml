@@ -1,9 +1,7 @@
 <mj-style>
-    .table-header { text-align:left; background-color:#eee; color:#87c588;}
-    .table-footer { text-align:left; background-color:#eee; padding: 0; line-height: 1.5 }
-    .table-footer td { padding: 0px 10px;}
-    .table-cell { padding-left: 10px; border-right: 1px solid #222;}
-    .table-cell:last-child {border-right: 0;}
-    .table-row:not(:last-child) {border-bottom: 1px solid #222;}
-    .table-cell-row {display: block; padding: 0; line-height: 1}
+    .column { padding: 0 5px !important;}
+    .columns-2 .column { width: 50%; }
+    .columns-3 .column { width: 33.333333333%; }
+    .columns-4 .column { width: 25%; }
+    .columns-5 .column { width: 20%; }
 </mj-style>

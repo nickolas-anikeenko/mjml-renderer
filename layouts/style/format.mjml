@@ -1,0 +1,39 @@
+<mj-style>
+    * {line-height: 1; }
+    .t1-title {font-size: 18pt; font-family: Arial,Sans-Serif; font-weight: 700; text-transform: uppercase; color:
+    #000066;}
+    .t2-title {font-size: 18pt; font-family: Arial,Sans-Serif; color: #5A88C6;}
+
+    .segment-title-h1 { font-size: 18pt; font-family: Arial,Sans-Serif; font-weight: 500; text-transform: uppercase;
+    color: #fff; }
+    .segment-title-h2 { font-size: 18pt; font-family: Arial,Sans-Serif; font-weight: 500; color: #fff; }
+
+    .l1-label { font-size: 11pt; font-family: Arial,Sans-Serif; font-weight: 700; text-transform: uppercase; color:
+    #222; }
+    .l2-label { font-size: 11pt; font-family: Arial,Sans-Serif; font-weight: 700; color: #222; }
+    .l3-label { font-size: 11pt; font-family: Arial,Sans-Serif; color: #222; }
+
+    .d1-dynamic-text { font-size: 14pt; font-family: Arial,Sans-Serif; font-weight: 700; text-transform: uppercase;
+    color: #000066 }
+    .d2-dynamic-text { font-size: 12pt; font-family: Arial, Sans-Serif; font-weight: 700; color: #666666 }
+    .d3-dynamic-text { font-size: 11pt; font-family: Arial, Sans-Serif; font-weight: 700; text-transform: uppercase;
+    color: #000066 }
+    .d4-dynamic-text { font-size: 11pt; font-family: Arial, Sans-Serif; font-weight: 700; color: #666666 }
+    .d5-dynamic-text { font-size: 12pt; font-family: Arial, Sans-Serif; font-weight: 700; color: #5A88C6 }
+    .d6-dynamic-text { font-size: 14pt; font-family: Arial, Sans-Serif; font-weight: 700; color: #5A88C6 }
+    .d7-dynamic-text { font-size: 11pt; font-family: Arial, Sans-Serif; color: #666666 }
+    .d8-dynamic-text { font-size: 54pt; font-family: Arial, Sans-Serif; text-transform: uppercase; color:#000066 }
+    .d9-dynamic-text { font-size: 11pt; font-family: Arial, Sans-Serif; color:#000066 }
+
+    .b1-body {font-size: 12pt; font-family: Arial,Sans-Serif; font-weight: 700; text-transform: uppercase; color:
+    #000066;}
+    .b2-floating-footer {font-size: 11pt; font-family: Arial,Sans-Serif; font-weight: 700; text-transform: uppercase;
+    color: #666666;}
+    .b3-terms-cond {font-size: 10pt; font-family: Arial,Sans-Serif; font-weight: 700; text-transform: uppercase; color:
+    #666666;}
+
+    .align-left { text-align: left !important; }
+    .align-right { text-align: right !important; }
+    .align-center { text-align: center !important; }
+
+</mj-style>
