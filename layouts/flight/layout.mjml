@@ -4,7 +4,7 @@
         <mj-include path="../style/format.mjml"/>
         <mj-include path="../style/tables.mjml"/>
     </mj-head>
-    <mj-body width="720px">
+    <mj-body width="640px">
         <mj-wrapper css-class="segment-wrapper segment-wrapper-border-light-blue" padding="0">
             <mj-section css-class="segment-title light-blue-bg">
                 <mj-column padding="0">
@@ -23,9 +23,9 @@
                     </mj-table>
                 </mj-column>
             </mj-section>
-            <mj-section padding="0" css-class="padding-0">
+            <mj-section css-class="segment-header light-gray-bg">
                 <mj-column>
-                    <mj-table css-class="segment-header light-gray-bg">
+                    <mj-table>
                         <tr>
                             <td class="l2-label blue-text">Delta Air Lines DL1110</td>
                             <td class="align-right">
@@ -36,9 +36,9 @@
                     </mj-table>
                 </mj-column>
             </mj-section>
-            <mj-section>
+            <mj-section css-class="segment-row">
                 <mj-column>
-                    <mj-table css-class="segment-row">
+                    <mj-table>
                         <tr class="columns-3">
                             <td class="column abbr-big-text blue-text align-center upper">ATL</td>
                             <td class="column d1-dynamic-bold-text light-blue-text align-center">{{ flight.duration }}
@@ -98,7 +98,7 @@
             <mj-section css-class="segment-row no-border">
                 <mj-column>
                     <mj-text>
-                        <div class="note">
+                        <div class="note p-2">
                             <p class="l1-label blue-text align-left">Notes:</p>
                             <p class="d3-dynamic-text gray-text align-left">
                                 Please include a copy if this receipt with your expense report.
@@ -112,7 +112,7 @@
             </mj-section>
             <!--Layover-->
             <mj-section css-class="segment-title gray-bg">
-                <mj-column padding="0">
+                <mj-column>
                     <mj-table>
                         <tr class="columns-3">
                             <th class="column">
@@ -126,9 +126,9 @@
                     </mj-table>
                 </mj-column>
             </mj-section>
-            <mj-section padding="0" css-class="padding-0">
+            <mj-section css-class="segment-header light-gray-bg">
                 <mj-column>
-                    <mj-table css-class="segment-header light-gray-bg">
+                    <mj-table>
                         <tr>
                             <td class="l2-label blue-text">British Airways</td>
                             <td class="l1-label align-right">
@@ -139,9 +139,9 @@
                     </mj-table>
                 </mj-column>
             </mj-section>
-            <mj-section>
+            <mj-section css-class="segment-row">
                 <mj-column>
-                    <mj-table css-class="segment-row">
+                    <mj-table>
                         <tr class="columns-3">
                             <td class="column abbr-big-text blue-text align-center">ATL</td>
                             <td class="column d1-dynamic-bold-text light-blue-text align-center">{{ flight.duration }}
@@ -201,7 +201,7 @@
             <mj-section css-class="segment-row">
                 <mj-column>
                     <mj-text>
-                        <p class="b4-notes-text light-gray-text align-left">
+                        <p class="b4-notes-text gray-text align-left">
                             This flight is being monitored for price drops. If we find a lower rate within 24 hours of
                             booking, we'll lock it in.
                         </p>
