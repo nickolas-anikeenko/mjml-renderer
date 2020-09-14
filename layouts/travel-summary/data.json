@@ -2,20 +2,47 @@
   "items": [
     {
       "date": "11/19/2020",
-      "airports": {
-        "from": "YYZ",
-        "to": "YVR"
-      },
-      "flight_vendor": "VS 701",
+      "airports": "ATL-MCO",
+      "vendor": "VS 701",
       "status": "Confirmed",
-      "time": {
-        "departure": "07:00 AM",
-        "arrive": "09:23 AM"
-      },
-      "flight_level": {
-        "class": "Economy",
-        "type": "E"
-      },
+      "time": "07:00 AM/09:23 AM",
+      "type": "Economy/E",
+      "baggage": "0PC"
+    },
+    {
+      "date": "11/19/2020",
+      "airports": "ATL-MCO",
+      "vendor": "VS 701",
+      "status": "Confirmed",
+      "time": "07:00 AM/09:23 AM",
+      "type": "Economy/E",
+      "baggage": "0PC"
+    },
+    {
+      "date": "11/19/2020",
+      "airports": "ATL-MCO",
+      "vendor": "VS 701",
+      "status": "Confirmed",
+      "time": "07:00 AM/09:23 AM",
+      "type": "Economy/E",
+      "baggage": "0PC"
+    },
+    {
+      "date": "11/19/2020",
+      "airports": "ATL-MCO",
+      "vendor": "VS 701",
+      "status": "Confirmed",
+      "time": "07:00 AM/09:23 AM",
+      "type": "Economy/E",
+      "baggage": "0PC"
+    },
+    {
+      "date": "11/19/2020",
+      "airports": "ATL-MCO",
+      "vendor": "VS 701",
+      "status": "Confirmed",
+      "time": "07:00 AM/09:23 AM",
+      "type": "Economy/E",
       "baggage": "0PC"
     }
   ]

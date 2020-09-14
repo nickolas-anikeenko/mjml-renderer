@@ -1,40 +1,39 @@
 <mjml>
     <mj-head>
         <mj-include path="../style/base.mjml"/>
+        <mj-include path="../style/format.mjml"/>
         <mj-include path="../style/tables.mjml"/>
     </mj-head>
-    <mj-body width="1024px">
-        <mj-wrapper border="1px solid blue" border-top="0" border-left="5px solid blue" padding="0">
-            <mj-section padding="0" background-color="blue">
+    <mj-body width="800px">
+        <mj-wrapper css-class="segment-wrapper segment-wrapper-border-light-blue" padding="0">
+            <mj-section css-class="segment-title light-blue-bg">
                 <mj-column padding="0">
-                    <mj-text padding="10px 15px" color="white" font-size="18px">Travel summary</mj-text>
+                    <mj-text>
+                        <h1 class="segment-title-h1 white-text align-left">Travel summary</h1>
+                    </mj-text>
                 </mj-column>
             </mj-section>
-            <mj-section padding="0">
-                <mj-column>
-                    <mj-table padding="0">
-                        <tr class="table-header">
-                            <th class="table-cell">Date</th>
-                            <th class="table-cell">From/To</th>
-                            <th class="table-cell">Flight vendor</th>
-                            <th class="table-cell">Status</th>
-                            <th class="table-cell">Departure/Arrive</th>
-                            <th class="table-cell">Class/Type</th>
-                            <th class="table-cell">Baggage Allowance</th>
-                        </tr>
-                        {{#each items as | item |}}
-                        <tr>
-                            <td class="table-cell">{{{item.date}}}</td>
-                            <td class="table-cell">{{{item.airports.from}}}-{{{item.airports.to}}}</td>
-                            <td class="table-cell">{{{item.flight_vendor}}}</td>
-                            <td class="table-cell">{{{item.status}}}</td>
-                            <td class="table-cell">{{{item.time.departure}}}/{{{item.time.arrive}}}</td>
-                            <td class="table-cell">{{{item.flight_level.class}}}/{{{item.flight_level.type}}}</td>
-                            <td class="table-cell">{{{item.baggage}}}</td>
-                        </tr>
-                        {{/each}}
-                    </mj-table>
-                </mj-column>
+            <mj-section css-class="segment-row no-border">
+                <mj-table>
+                    <tr class="row columns-6">
+                        <th class="column l1-label green-text align-left">Date</th>
+                        <th class="column l1-label green-text align-left">From/To</th>
+                        <th class="column l1-label green-text align-left">Flight/Vendor</th>
+                        <th class="column l1-label green-text align-left">Status</th>
+                        <th class="column l1-label green-text align-left">Departure/Arrive</th>
+                        <th class="column l1-label green-text align-left">Class/Type</th>
+                    </tr>
+                    {{#each items as | item |}}
+                    <tr class="row columns-6">
+                        <td class="column d2-dynamic-text align-left">{{item.date}}</td>
+                        <td class="column d2-dynamic-text align-left">{{item.airports}}</td>
+                        <td class="column d2-dynamic-text align-left">{{item.vendor}}</td>
+                        <td class="column d2-dynamic-text align-left">{{item.status}}</td>
+                        <td class="column d2-dynamic-text align-left">{{item.time}}</td>
+                        <td class="column d2-dynamic-text align-left">{{item.type}}</td>
+                    </tr>
+                    {{/each}}
+                </mj-table>
             </mj-section>
         </mj-wrapper>
     </mj-body>
