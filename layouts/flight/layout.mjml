@@ -40,18 +40,19 @@
                 <mj-column>
                     <mj-table>
                         <tr class="columns-3">
-                            <td class="column abbr-big-text blue-text align-center upper">ATL</td>
+                            <td class="column">
+                                <p class="abbr-big-text blue-text align-center upper">ATL</p>
+                                <p class="d3-dynamic-text gray-text align-center">
+                                    Hartsfield-Jackson Atlanta International Airport Atlanta, GA, United states
+                                </p>
+                            </td>
                             <td class="column d1-dynamic-bold-text light-blue-text align-center">{{ flight.duration }}
                             </td>
-                            <td class="column abbr-big-text blue-text align-center upper">MCO</td>
-                        </tr>
-                        <tr class="columns-3">
-                            <td class="column d3-dynamic-text gray-text align-center">
-                                Hartsfield-Jackson Atlanta International Airport Atlanta, GA, United states
-                            </td>
-                            <td class="column "></td>
-                            <td class="column d3-dynamic-text gray-text align-center">
-                                Hartsfield-Jackson Atlanta International Airport Atlanta, GA, United states
+                            <td class="column">
+                                <p class="abbr-big-text blue-text align-center upper">MCO</p>
+                                <p class="d3-dynamic-text gray-text align-center">
+                                    Hartsfield-Jackson Atlanta International Airport Atlanta, GA, United states
+                                </p>
                             </td>
                         </tr>
                     </mj-table>
@@ -119,7 +120,7 @@
                                 <h1 class="segment-title-h1 white-text align-left">Layover</h1>
                             </th>
                             <th class="column">
-                                <h6 class="d2-dynamic-bold-text white-text">{{ flight.duration }}</h6>
+                                <h6 class="d2-dynamic-bold-text white-text">1h 50m</h6>
                             </th>
                             <th class="column"></th>
                         </tr>
@@ -143,18 +144,19 @@
                 <mj-column>
                     <mj-table>
                         <tr class="columns-3">
-                            <td class="column abbr-big-text blue-text align-center">ATL</td>
+                            <td class="column">
+                                <p class="abbr-big-text blue-text align-center upper">ATL</p>
+                                <p class="d3-dynamic-text gray-text align-center">
+                                    Hartsfield-Jackson Atlanta International Airport Atlanta, GA, United states
+                                </p>
+                            </td>
                             <td class="column d1-dynamic-bold-text light-blue-text align-center">{{ flight.duration }}
                             </td>
-                            <td class="column abbr-big-text blue-text align-center">MCO</td>
-                        </tr>
-                        <tr class="columns-3">
-                            <td class="column d3-dynamic-text gray-text align-center">
-                                Hartsfield-Jackson Atlanta International Airport Atlanta, GA, United states
-                            </td>
-                            <td class="column "></td>
-                            <td class="column d3-dynamic-text gray-text align-center">
-                                Hartsfield-Jackson Atlanta International Airport Atlanta, GA, United states
+                            <td class="column">
+                                <p class="abbr-big-text blue-text align-center upper">MCO</p>
+                                <p class="d3-dynamic-text gray-text align-center">
+                                    Hartsfield-Jackson Atlanta International Airport Atlanta, GA, United states
+                                </p>
                             </td>
                         </tr>
                     </mj-table>
