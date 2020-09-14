@@ -31,6 +31,7 @@
     color: #666666;}
     .b3-terms-cond {font-size: 10pt; font-family: Arial,Sans-Serif; font-weight: 700; text-transform: uppercase; color:
     #666666;}
+    .b4-notes-text {font-size: 9pt; font-family: Arial,Sans-Serif; font-weight: 500; color: #e7e7e7;}
 
     .align-left { text-align: left !important; }
     .align-right { text-align: right !important; }
