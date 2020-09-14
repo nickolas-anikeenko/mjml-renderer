@@ -1,0 +1,56 @@
+<mjml>
+    <mj-head>
+        <mj-include path="../style/base.mjml"/>
+        <mj-include path="../style/format.mjml"/>
+        <mj-include path="../style/tables.mjml"/>
+    </mj-head>
+    <mj-body width="640px">
+        <mj-wrapper css-class="segment-wrapper segment-wrapper-border-light-blue" padding="0">
+            <mj-section css-class="segment-title light-blue-bg">
+                <mj-column padding="0">
+                    <mj-text>
+                        <h1 class="segment-title-h1 white-text align-left">
+                            London, United Kingdom
+                        </h1>
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <mj-section padding="0" css-class="padding-0">
+                <mj-column>
+                    <mj-table css-class="segment-header light-gray-bg">
+                        <tr class="columns-2">
+                            <td class="column l1-label green-text">Passenger</td>
+                            <td class="column l1-label green-text">Airline record locator</td>
+                        </tr>
+                        <tr class="columns-2">
+                            <td class="column d2-dynamic-bold-text blue-text">Trice WY</td>
+                            <td class="column d2-dynamic-bold-text blue-text">hqq7yd</td>
+                        </tr>
+                    </mj-table>
+                </mj-column>
+            </mj-section>
+            <mj-section css-class="segment-row">
+                <mj-column>
+                    <mj-text>
+                        <p class="b4-notes-text gray-text align-left">
+                            BE PREPARED! Your trip may require a VISA OR PASSPORT.
+                            <a href="https://google.com" target="_blank">Click here</a>
+                            if it does, make sure your passport has at least SIX MONTH of validity
+                            beyond your return date and at least 2 blank pages.
+                        </p>
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <mj-section css-class="segment-row no-border">
+                <mj-column>
+                    <mj-text>
+                        <p class="b4-notes-text gray-text align-left">
+                            We've got your back. You have been enrolled to receive BCD Safety and Security alerts.
+                            We well notify you of any critical events that impact your trip.
+                        </p>
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+        </mj-wrapper>
+    </mj-body>
+</mjml>
