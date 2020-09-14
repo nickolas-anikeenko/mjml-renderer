@@ -1,0 +1,27 @@
+<mjml>
+    <mj-head>
+        <mj-include path="../style/base.mjml"/>
+        <mj-include path="../style/format.mjml"/>
+        <mj-include path="../style/tables.mjml"/>
+    </mj-head>
+    <mj-body width="640px">
+        <mj-wrapper css-class="segment-wrapper segment-wrapper-border-orange" padding="0">
+            <mj-section css-class="segment-title orange-bg">
+                <mj-column padding="0">
+                    <mj-text class="column">
+                        <h1 class="segment-title-h1 white-text align-left">Need a hotel?</h1>
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <mj-section css-class="p-3">
+                <mj-text>
+                    <div class="d4-dynamic-text dark-gray-text align-left">
+                        Your trip to <strong>London, GB</strong> from <strong>January 16 - January 21</strong> does not
+                        include a hotel. Book a company preferred hotel in less than two minutes with <a
+                            href="https://google.com" target="_blank">TripSource</a>
+                    </div>
+                </mj-text>
+            </mj-section>
+        </mj-wrapper>
+    </mj-body>
+</mjml>
