@@ -211,7 +211,7 @@
             <mj-section css-class="segment-row no-border">
                 <mj-column>
                     <mj-text>
-                        <p class="d3-dynamic-text align-left">
+                        <p class="d4-dynamic-text dark-gray-text align-left">
                             Get additional flight details and mobile flight alerts with
                             <a href="https://google.com" target="_blank"
                                class="d2-dynamic-text blue-text">TripSource</a>
