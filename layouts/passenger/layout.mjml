@@ -18,12 +18,14 @@
             <mj-section padding="0" css-class="padding-0">
                 <mj-column>
                     <mj-table css-class="segment-header light-gray-bg">
-                        <tr class="columns-2">
+                        <tr class="columns-3">
                             <td class="column l1-label green-text">Passenger</td>
+                            <td class="column"></td>
                             <td class="column l1-label green-text">Airline record locator</td>
                         </tr>
-                        <tr class="columns-2">
+                        <tr class="columns-3">
                             <td class="column d2-dynamic-bold-text blue-text">Trice WY</td>
+                            <td class="column"></td>
                             <td class="column d2-dynamic-bold-text blue-text">hqq7yd</td>
                         </tr>
                     </mj-table>
