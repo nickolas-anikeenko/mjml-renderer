@@ -4,7 +4,8 @@
     p { padding: 0 !important; margin: 0 !important; }
     a { text-transform: none; text-decoration: none; }
 
-    .segment-wrapper { border: 1px solid #bbb; border-left: 5px solid #bbb; border-top: 0; padding: 0;}
+    .segment-wrapper { border: 1px solid #bbb; border-left: 5px solid #bbb; border-top: 0; padding: 0; margin-bottom:
+    15px;}
     .segment-wrapper-border-blue {border-left: 5px solid #000666;}
     .segment-wrapper-border-light-blue {border-left: 5px solid #5A88C6;}
     .segment-wrapper-border-gray {border-left: 5px solid #b0b0b0;}
@@ -17,7 +18,7 @@
     .segment-title { padding: 5px 15px; }
     .segment-header { padding: 15px !important; border-bottom: 2px solid #e7e7e7; }
     .segment-row { padding: 10px 15px !important; border-bottom: 2px solid #e7e7e7; }
-    .segment-row.no-border { border: 0;}
+    .no-border { border: 0 !important; }
 
     .note { border: 2px solid #e7e7e7; }
 

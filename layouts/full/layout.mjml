@@ -1,0 +1,18 @@
+<mjml>
+    <mj-head>
+        <mj-include path="../style/base.mjml"/>
+        <mj-include path="../style/format.mjml"/>
+        <mj-include path="../style/tables.mjml"/>
+    </mj-head>
+    <mj-body width="640px" css-class="pt-4 pb-4">
+        <mj-include path="../intro/layout.mjml"></mj-include>
+        <mj-include path="../passenger/layout.mjml"></mj-include>
+        <mj-include path="../travel-summary/layout.mjml"></mj-include>
+        <mj-include path="../flight/layout.mjml"></mj-include>
+        <mj-include path="../car/layout.mjml"></mj-include>
+        <mj-include path="../rail/layout.mjml"></mj-include>
+        <mj-include path="../car-service/layout.mjml"></mj-include>
+        <mj-include path="../need-a-hotel/layout.mjml"></mj-include>
+        <mj-include path="../additional-info/layout.mjml"></mj-include>
+    </mj-body>
+</mjml>

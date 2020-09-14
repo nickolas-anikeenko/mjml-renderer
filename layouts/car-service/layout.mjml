@@ -1,94 +1,85 @@
-<mjml>
-    <mj-head>
-        <mj-include path="../style/base.mjml"/>
-        <mj-include path="../style/format.mjml"/>
-        <mj-include path="../style/tables.mjml"/>
-    </mj-head>
-    <mj-body width="640px">
-        <mj-wrapper css-class="segment-wrapper segment-wrapper-border-green" padding="0">
-            <mj-section css-class="segment-title green-bg">
-                <mj-column padding="0">
-                    <mj-text class="column">
-                        <h1 class="segment-title-h1 white-text align-left">Car service</h1>
-                    </mj-text>
-                </mj-column>
-            </mj-section>
-            <mj-section css-class="segment-header light-gray-bg">
-                <mj-column>
-                    <mj-table>
-                        <tr>
-                            <td class="l2-label blue-text">Carey</td>
-                            <td class="align-right">
-                                <span class="l1-label green-text">Confirmation</span>
-                                <span class="l1-label blue-text">389652345</span>
-                                <p class="d4-dynamic-bold-text gray-text pt-1">Loyalty Number 20367506773</p>
-                            </td>
-                        </tr>
-                    </mj-table>
-                </mj-column>
-            </mj-section>
-            <mj-section css-class="segment-row no-border">
-                <mj-column>
-                    <mj-text>
-                        <p class="l1-label green-text align-center mb-1">Pick Up</p>
-                        <p class="d2-dynamic-bold-text gray-text align-center">Friday 01 JUL
-                            <span class="blue-text">6:00 PM</span>
-                            <span class="gray-text">MDT</span>
-                        </p>
-                        <p class="d4-dynamic-text gray-text align-center p-1">
-                            Glenwood Springs Station
-                        </p>
-                        <p class="ld4-dynamic-text light-blue-text align-center">+1 (333) 333-2211</p>
-                    </mj-text>
-                </mj-column>
-                <mj-column>
-                    <mj-text>
-                        <p class="l1-label green-text align-center mb-1">Class</p>
-                        <p class="d2-dynamic-bold-text blue-text align-center">Sedan - Chauffeur Driven</p>
-                        <p class="d4-dynamic-text gray-text align-center">50 USD</p>
-                        <p class="d4-dynamic-text gray-text align-center">28 minutes</p>
-                        <p class="d4-dynamic-text light-blue-text align-center">Confirmed</p>
-                    </mj-text>
-                </mj-column>
-                <mj-column>
-                    <mj-text>
-                        <p class="l1-label green-text align-center mb-1">Drop Off</p>
-                        <p class="d2-dynamic-bold-text gray-text align-center">Friday 01 JUL
-                            <span class="l1-label blue-text">6:28 PM</span>
-                            <span class="gray-text">MDT</span>
-                        </p>
-                        <p class="d4-dynamic-text gray-text align-center p-1">
-                            Marriott
-                            401 W 1st St
-                            Glenwood Springs, CO
-                        </p>
-                        <p class="ld4-dynamic-text light-blue-text align-center">+0 843-309-3009</p>
-                    </mj-text>
-                </mj-column>
-            </mj-section>
-            <mj-section css-class="segment-row no-border">
-                <mj-column>
-                    <mj-text>
-                        <div class="note p-2">
-                            <p class="l1-label blue-text align-left pb-1">Notes:</p>
-                            <p class="d3-dynamic-text gray-text align-left">
-                                Train Station pick up.
-                            </p>
-                        </div>
-                    </mj-text>
-                </mj-column>
-            </mj-section>
-            <mj-section css-class="segment-row no-border">
-                <mj-column>
-                    <mj-text>
-                        <p class="d4-dynamic-text dark-gray-text align-left">
-                            Get additional flight details and mobile flight alerts with
-                            <a href="https://google.com" target="_blank"
-                               class="d2-dynamic-text blue-text">TripSource</a>
-                        </p>
-                    </mj-text>
-                </mj-column>
-            </mj-section>
-        </mj-wrapper>
-    </mj-body>
-</mjml>
+<mj-wrapper css-class="segment-wrapper segment-wrapper-border-green mb-4" padding="0">
+    <mj-section css-class="segment-title green-bg">
+        <mj-column padding="0">
+            <mj-text class="column">
+                <h1 class="segment-title-h1 white-text align-left">Car service</h1>
+            </mj-text>
+        </mj-column>
+    </mj-section>
+    <mj-section css-class="segment-header light-gray-bg">
+        <mj-column>
+            <mj-table>
+                <tr>
+                    <td class="l2-label blue-text">Carey</td>
+                    <td class="align-right">
+                        <span class="l1-label green-text">Confirmation</span>
+                        <span class="l1-label blue-text">389652345</span>
+                        <p class="d4-dynamic-bold-text gray-text pt-1">Loyalty Number 20367506773</p>
+                    </td>
+                </tr>
+            </mj-table>
+        </mj-column>
+    </mj-section>
+    <mj-section css-class="segment-row no-border">
+        <mj-column>
+            <mj-text>
+                <p class="l1-label green-text align-center mb-1">Pick Up</p>
+                <p class="d2-dynamic-bold-text gray-text align-center">Friday 01 JUL
+                    <span class="blue-text">6:00 PM</span>
+                    <span class="gray-text">MDT</span>
+                </p>
+                <p class="d4-dynamic-text gray-text align-center p-1">
+                    Glenwood Springs Station
+                </p>
+                <p class="ld4-dynamic-text light-blue-text align-center">+1 (333) 333-2211</p>
+            </mj-text>
+        </mj-column>
+        <mj-column>
+            <mj-text>
+                <p class="l1-label green-text align-center mb-1">Class</p>
+                <p class="d2-dynamic-bold-text blue-text align-center">Sedan - Chauffeur Driven</p>
+                <p class="d4-dynamic-text gray-text align-center">50 USD</p>
+                <p class="d4-dynamic-text gray-text align-center">28 minutes</p>
+                <p class="d4-dynamic-text light-blue-text align-center">Confirmed</p>
+            </mj-text>
+        </mj-column>
+        <mj-column>
+            <mj-text>
+                <p class="l1-label green-text align-center mb-1">Drop Off</p>
+                <p class="d2-dynamic-bold-text gray-text align-center">Friday 01 JUL
+                    <span class="l1-label blue-text">6:28 PM</span>
+                    <span class="gray-text">MDT</span>
+                </p>
+                <p class="d4-dynamic-text gray-text align-center p-1">
+                    Marriott
+                    401 W 1st St
+                    Glenwood Springs, CO
+                </p>
+                <p class="ld4-dynamic-text light-blue-text align-center">+0 843-309-3009</p>
+            </mj-text>
+        </mj-column>
+    </mj-section>
+    <mj-section css-class="segment-row no-border">
+        <mj-column>
+            <mj-text>
+                <div class="note p-2">
+                    <p class="l1-label blue-text align-left pb-1">Notes:</p>
+                    <p class="d3-dynamic-text gray-text align-left">
+                        Train Station pick up.
+                    </p>
+                </div>
+            </mj-text>
+        </mj-column>
+    </mj-section>
+    <mj-section css-class="segment-row no-border">
+        <mj-column>
+            <mj-text>
+                <p class="d4-dynamic-text dark-gray-text align-left">
+                    Get additional flight details and mobile flight alerts with
+                    <a href="https://google.com" target="_blank"
+                       class="d2-dynamic-text blue-text">TripSource</a>
+                </p>
+            </mj-text>
+        </mj-column>
+    </mj-section>
+</mj-wrapper>

@@ -1,22 +1,16 @@
-<mjml>
-    <mj-head>
-        <mj-include path="../style/base.mjml"/>
-        <mj-include path="../style/format.mjml"/>
-    </mj-head>
-    <mj-body width="640px">
-        <mj-section>
-            <mj-text>
-                <p class="mb-2">
-                    <span class="t1-title blue-text">Get ready! </span>
-                    <span class="t2-title">Here is your itinerary for your upcoming trip.</span>
-                </p>
-                <p class="d4-dynamic-text dark-gray-text align-left">
-                    Please include a copy if this receipt with your expense report.
-                    Fares are subject to change ar any time. Airfares are not guaranteed until the ticket
-                    has been issued.
-                    Report any medical emergency to ABCcompany@emergencies.com
-                </p>
-            </mj-text>
-        </mj-section>
-    </mj-body>
-</mjml>
+<mj-wrapper css-class="segment-wrapper no-border mb-4">
+    <mj-section>
+        <mj-text>
+            <p class="mb-2">
+                <span class="t1-title blue-text">Get ready! </span>
+                <span class="t2-title">Here is your itinerary for your upcoming trip.</span>
+            </p>
+            <p class="d4-dynamic-text dark-gray-text align-left">
+                Please include a copy if this receipt with your expense report.
+                Fares are subject to change ar any time. Airfares are not guaranteed until the ticket
+                has been issued.
+                Report any medical emergency to ABCcompany@emergencies.com
+            </p>
+        </mj-text>
+    </mj-section>
+</mj-wrapper>
