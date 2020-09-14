@@ -4,7 +4,7 @@
         <mj-include path="../style/format.mjml"/>
         <mj-include path="../style/tables.mjml"/>
     </mj-head>
-    <mj-body width="800px">
+    <mj-body width="720px">
         <mj-wrapper css-class="segment-wrapper segment-wrapper-border-light-blue" padding="0">
             <mj-section css-class="segment-title light-blue-bg">
                 <mj-column padding="0">
@@ -15,22 +15,22 @@
             </mj-section>
             <mj-section css-class="segment-row no-border">
                 <mj-table>
-                    <tr class="row columns-6">
-                        <th class="column l1-label green-text align-left">Date</th>
-                        <th class="column l1-label green-text align-left">From/To</th>
-                        <th class="column l1-label green-text align-left">Flight/Vendor</th>
-                        <th class="column l1-label green-text align-left">Status</th>
-                        <th class="column l1-label green-text align-left">Departure/Arrive</th>
-                        <th class="column l1-label green-text align-left">Class/Type</th>
+                    <tr class="columns-6">
+                        <th class="column l1-label green-text align-left p-1">Date</th>
+                        <th class="column l1-label green-text align-left p-1">From/To</th>
+                        <th class="column l1-label green-text align-left p-1">Flight/Vendor</th>
+                        <th class="column l1-label green-text align-left p-1">Status</th>
+                        <th class="column l1-label green-text align-left p-1">Departure/Arrive</th>
+                        <th class="column l1-label green-text align-left p-1">Class/Type</th>
                     </tr>
                     {{#each items as | item |}}
-                    <tr class="row columns-6">
-                        <td class="column d2-dynamic-text align-left">{{item.date}}</td>
-                        <td class="column d2-dynamic-text align-left">{{item.airports}}</td>
-                        <td class="column d2-dynamic-text align-left">{{item.vendor}}</td>
-                        <td class="column d2-dynamic-text align-left">{{item.status}}</td>
-                        <td class="column d2-dynamic-text align-left">{{item.time}}</td>
-                        <td class="column d2-dynamic-text align-left">{{item.type}}</td>
+                    <tr class="columns-6">
+                        <td class="column d2-dynamic-bold-text dark-gray-text align-left p-1">{{item.date}}</td>
+                        <td class="column d2-dynamic-bold-text dark-gray-text align-left p-1">{{item.airports}}</td>
+                        <td class="column d2-dynamic-bold-text dark-gray-text align-left p-1">{{item.vendor}}</td>
+                        <td class="column d2-dynamic-bold-text dark-gray-text align-left p-1">{{item.status}}</td>
+                        <td class="column d2-dynamic-bold-text dark-gray-text align-left p-1">{{item.time}}</td>
+                        <td class="column d2-dynamic-bold-text dark-gray-text align-left p-1">{{item.type}}</td>
                     </tr>
                     {{/each}}
                 </mj-table>

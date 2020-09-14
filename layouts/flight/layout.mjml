@@ -4,7 +4,7 @@
         <mj-include path="../style/format.mjml"/>
         <mj-include path="../style/tables.mjml"/>
     </mj-head>
-    <mj-body width="640px">
+    <mj-body width="720px">
         <mj-wrapper css-class="segment-wrapper segment-wrapper-border-light-blue" padding="0">
             <mj-section css-class="segment-title light-blue-bg">
                 <mj-column padding="0">

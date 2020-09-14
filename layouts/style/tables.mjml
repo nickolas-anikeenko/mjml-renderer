@@ -1,6 +1,4 @@
 <mj-style>
-    .row { padding: 5px 0 !important; }
-    .column { padding: 0 5px !important;}
     .columns-2 .column { width: 50%; }
     .columns-3 .column { width: 33.333333333%; }
     .columns-4 .column { width: 25%; }
