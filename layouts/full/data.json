@@ -1,0 +1,52 @@
+{
+  "flight": {
+    "duration": "5h 23 min"
+  },
+  "items": [
+    {
+      "date": "11/19/2020",
+      "airports": "ATL-MCO",
+      "vendor": "VS 701",
+      "status": "Confirmed",
+      "time": "07:00 AM/09:23 AM",
+      "type": "Economy/E",
+      "baggage": "0PC"
+    },
+    {
+      "date": "11/19/2020",
+      "airports": "ATL-MCO",
+      "vendor": "VS 701",
+      "status": "Confirmed",
+      "time": "07:00 AM/09:23 AM",
+      "type": "Economy/E",
+      "baggage": "0PC"
+    },
+    {
+      "date": "11/19/2020",
+      "airports": "ATL-MCO",
+      "vendor": "VS 701",
+      "status": "Confirmed",
+      "time": "07:00 AM/09:23 AM",
+      "type": "Economy/E",
+      "baggage": "0PC"
+    },
+    {
+      "date": "11/19/2020",
+      "airports": "ATL-MCO",
+      "vendor": "VS 701",
+      "status": "Confirmed",
+      "time": "07:00 AM/09:23 AM",
+      "type": "Economy/E",
+      "baggage": "0PC"
+    },
+    {
+      "date": "11/19/2020",
+      "airports": "ATL-MCO",
+      "vendor": "VS 701",
+      "status": "Confirmed",
+      "time": "07:00 AM/09:23 AM",
+      "type": "Economy/E",
+      "baggage": "0PC"
+    }
+  ]
+}

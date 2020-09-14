@@ -1,5 +1,5 @@
-<mj-wrapper css-class="segment-wrapper segment-wrapper-border-light-blue mb-4">
-    <mj-section css-class="segment-title light-blue-bg">
+<mj-wrapper css-class="segment-wrapper segment-wrapper-border-blue mb-4">
+    <mj-section css-class="segment-title blue-bg">
         <mj-column padding="0">
             <mj-text>
                 <h1 class="segment-title-h1 white-text align-left">Travel summary</h1>
@@ -18,12 +18,12 @@
             </tr>
             {{#each items as | item |}}
             <tr class="columns-6">
-                <td class="column d2-dynamic-bold-text dark-gray-text align-left p-1">{{item.date}}</td>
-                <td class="column d2-dynamic-bold-text dark-gray-text align-left p-1">{{item.airports}}</td>
-                <td class="column d2-dynamic-bold-text dark-gray-text align-left p-1">{{item.vendor}}</td>
-                <td class="column d2-dynamic-bold-text dark-gray-text align-left p-1">{{item.status}}</td>
-                <td class="column d2-dynamic-bold-text dark-gray-text align-left p-1">{{item.time}}</td>
-                <td class="column d2-dynamic-bold-text dark-gray-text align-left p-1">{{item.type}}</td>
+                <td class="column d4-dynamic-bold-text dark-gray-text align-left p-1">{{item.date}}</td>
+                <td class="column d4-dynamic-bold-text dark-gray-text align-left p-1">{{item.airports}}</td>
+                <td class="column d4-dynamic-bold-text dark-gray-text align-left p-1">{{item.vendor}}</td>
+                <td class="column d4-dynamic-bold-text dark-gray-text align-left p-1">{{item.status}}</td>
+                <td class="column d4-dynamic-bold-text dark-gray-text align-left p-1">{{item.time}}</td>
+                <td class="column d4-dynamic-bold-text dark-gray-text align-left p-1">{{item.type}}</td>
             </tr>
             {{/each}}
         </mj-table>

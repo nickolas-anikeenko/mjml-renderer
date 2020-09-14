@@ -1,5 +1,5 @@
-<mj-wrapper css-class="segment-wrapper segment-wrapper-border-light-blue mb-4">
-    <mj-section css-class="segment-title light-blue-bg">
+<mj-wrapper css-class="segment-wrapper segment-wrapper-border-blue mb-4">
+    <mj-section css-class="segment-title blue-bg">
         <mj-column padding="0">
             <mj-text>
                 <h1 class="segment-title-h1 white-text align-left">

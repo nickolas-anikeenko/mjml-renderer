@@ -8,7 +8,7 @@
     color: #fff; }
     .segment-title-h2 { font-size: 18pt; font-family: Arial,Sans-Serif; font-weight: 500; color: #fff; }
 
-    .l1-label { font-size: 11pt; font-family: Arial,Sans-Serif; font-weight: 700; text-transform: uppercase; color:
+    .l1-label { font-size: 10pt; font-family: Arial,Sans-Serif; font-weight: 700; text-transform: uppercase; color:
     #222; }
     .l2-label { font-size: 11pt; font-family: Arial,Sans-Serif; font-weight: 700; color: #222; }
     .l3-label { font-size: 11pt; font-family: Arial,Sans-Serif; color: #222; }
@@ -42,5 +42,4 @@
     .align-center { text-align: center !important; }
 
     .upper { text-transform: uppercase; }
-
 </mj-style>
