@@ -1,0 +1,38 @@
+<mjml>
+    <mj-head>
+        <mj-include path="../style/base.mjml"/>
+        <mj-include path="../style/format.mjml"/>
+    </mj-head>
+    <mj-body width="640px">
+        <mj-wrapper css-class="segment-wrapper segment-wrapper-border-blue" padding="0">
+            <mj-section css-class="segment-title blue-bg">
+                <mj-column padding="0">
+                    <mj-text class="column">
+                        <h1 class="segment-title-h1 white-text align-left">Additional trip information</h1>
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <mj-section>
+                <mj-table>
+                    <tr>
+                        <td class="l2-label blue-text light-gray-bg p-3" style="width: 33%; vertical-align: top">Baggage
+                            Policy
+                        </td>
+                        <td class="p-3">
+                            <p class="d4-dynamic-text gray-text align-left">
+                                TRAVELER NOTICE - Many airlines charge fees for baggage and other services. Amounts vary
+                                by
+                                airlines and are subject to change. Travelers are responsible for verifying all fees
+                                charged by individual carriers.
+                            </p>
+                            <p class="d4-dynamic-bold-text gray-text align-left">
+                                Please visit the operating carrier website of your ticketed itinerary for applicable
+                                fees.
+                            </p>
+                        </td>
+                    </tr>
+                </mj-table>
+            </mj-section>
+        </mj-wrapper>
+    </mj-body>
+</mjml>

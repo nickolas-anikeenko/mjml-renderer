@@ -4,7 +4,7 @@
     #000066;}
     .t2-title {font-size: 18pt; font-family: Arial,Sans-Serif; font-weight: 500; color: #5A88C6;}
 
-    .segment-title-h1 { font-size: 18pt; font-family: Arial,Sans-Serif; font-weight: 500; text-transform: uppercase;
+    .segment-title-h1 { font-size: 14pt; font-family: Arial,Sans-Serif; font-weight: 300; text-transform: uppercase;
     color: #fff; }
     .segment-title-h2 { font-size: 18pt; font-family: Arial,Sans-Serif; font-weight: 500; color: #fff; }
 
