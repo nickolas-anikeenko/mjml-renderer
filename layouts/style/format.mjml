@@ -12,18 +12,21 @@
     #222; }
     .l2-label { font-size: 11pt; font-family: Arial,Sans-Serif; font-weight: 700; color: #222; }
     .l3-label { font-size: 11pt; font-family: Arial,Sans-Serif; color: #222; }
+    .l4-label { font-size: 9pt; font-family: Arial,Sans-Serif; font-weight: 700; text-transform: uppercase; }
 
-    .d1-dynamic-text { font-size: 14pt; font-family: Arial,Sans-Serif; font-weight: 700; text-transform: uppercase;
-    color: #000066 }
-    .d2-dynamic-text { font-size: 12pt; font-family: Arial, Sans-Serif; font-weight: 700; color: #666666 }
-    .d3-dynamic-text { font-size: 11pt; font-family: Arial, Sans-Serif; font-weight: 700; text-transform: uppercase;
-    color: #000066 }
-    .d4-dynamic-text { font-size: 11pt; font-family: Arial, Sans-Serif; font-weight: 700; color: #666666 }
-    .d5-dynamic-text { font-size: 12pt; font-family: Arial, Sans-Serif; font-weight: 700; color: #5A88C6 }
-    .d6-dynamic-text { font-size: 14pt; font-family: Arial, Sans-Serif; font-weight: 700; color: #5A88C6 }
-    .d7-dynamic-text { font-size: 11pt; font-family: Arial, Sans-Serif; color: #666666 }
-    .d8-dynamic-text { font-size: 54pt; font-family: Arial, Sans-Serif; text-transform: uppercase; color:#000066 }
-    .d9-dynamic-text { font-size: 11pt; font-family: Arial, Sans-Serif; color:#000066 }
+    .abbr-big-text { font-size: 54pt; font-family: Arial, Sans-Serif; font-weight: 700; }
+
+    .d1-dynamic-bold-text { font-size: 14pt; font-family: Arial, Sans-Serif; font-weight: 700; }
+    .d2-dynamic-bold-text { font-size: 12pt; font-family: Arial, Sans-Serif; font-weight: 700; }
+    .d3-dynamic-bold-text { font-size: 11pt; font-family: Arial, Sans-Serif; font-weight: 700; }
+    .d4-dynamic-bold-text { font-size: 10pt; font-family: Arial, Sans-Serif; font-weight: 700; }
+    .d5-dynamic-bold-text { font-size: 9pt; font-family: Arial, Sans-Serif; font-weight: 700; }
+
+    .d1-dynamic-text { font-size: 14pt; font-family: Arial, Sans-Serif; }
+    .d2-dynamic-text { font-size: 12pt; font-family: Arial, Sans-Serif; }
+    .d3-dynamic-text { font-size: 11pt; font-family: Arial, Sans-Serif; }
+    .d4-dynamic-text { font-size: 10pt; font-family: Arial, Sans-Serif; }
+    .d5-dynamic-text { font-size: 9pt; font-family: Arial, Sans-Serif; }
 
     .b1-body {font-size: 12pt; font-family: Arial,Sans-Serif; font-weight: 700; text-transform: uppercase; color:
     #000066;}
@@ -36,5 +39,7 @@
     .align-left { text-align: left !important; }
     .align-right { text-align: right !important; }
     .align-center { text-align: center !important; }
+
+    .upper { text-transform: uppercase; }
 
 </mj-style>
