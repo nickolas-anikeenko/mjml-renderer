@@ -1,0 +1,116 @@
+<mjml>
+    <mj-head>
+        <mj-include path="../style/base.mjml"/>
+        <mj-include path="../style/format.mjml"/>
+        <mj-include path="../style/tables.mjml"/>
+    </mj-head>
+    <mj-body width="640px">
+        <mj-wrapper css-class="segment-wrapper segment-wrapper-border-purple" padding="0">
+            <mj-section css-class="segment-title purple-bg">
+                <mj-column padding="0">
+                    <mj-text>
+                        <h1 class="segment-title-h1 white-text align-left">Rail</h1>
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <mj-section padding="0" css-class="padding-0">
+                <mj-column>
+                    <mj-table css-class="segment-header light-gray-bg">
+                        <tr>
+                            <td class="l2-label blue-text">Deutsche Bahn 2132</td>
+                            <td class="align-right">
+                                <span class="l1-label green-text">Confirmation</span>
+                                <span class="l1-label blue-text">42428833US3</span>
+                                <p class="d4-dynamic-bold-text gray-text pt-1">Loyalty Number 20367506773</p>
+                            </td>
+                        </tr>
+                    </mj-table>
+                </mj-column>
+            </mj-section>
+            <mj-section css-class="segment-row">
+                <mj-column>
+                    <mj-table>
+                        <tr class="columns-3">
+                            <td class="column abbr-small-text blue-text align-center upper">Denver</td>
+                            <td class="column d1-dynamic-bold-text light-blue-text align-center">1h 50m</td>
+                            <td class="column abbr-small-text blue-text align-center upper">Glenwood Springs</td>
+                        </tr>
+                        <tr class="columns-3">
+                            <td class="column d3-dynamic-text gray-text align-center">
+                                Union Station Deutsche Bahn Denver
+                            </td>
+                            <td class="column"></td>
+                            <td class="column d3-dynamic-text gray-text align-center">
+                                Glenwood Springs Station
+                            </td>
+                        </tr>
+                    </mj-table>
+                </mj-column>
+            </mj-section>
+            <mj-section css-class="segment-row no-border">
+                <mj-column>
+                    <mj-text>
+                        <p class="l1-label green-text align-center mb-1">Departure</p>
+                        <p class="d2-dynamic-bold-text gray-text align-center">Friday 01 JUL
+                            <span class="blue-text">3:45 PM</span>
+                            <span class="gray-text">MDT</span>
+                        </p>
+                        <p class="d2-dynamic-bold-text gray-text align-center pt-1">Platform:
+                            <span class="blue-text">B</span>
+                        </p>
+                    </mj-text>
+                </mj-column>
+                <mj-column>
+                    <mj-text>
+                        <p class="l1-label green-text align-center mb-1">Seat</p>
+                        <p class="d2-dynamic-bold-text blue-text align-center">B25</p>
+                        <p class="d7-dynamic-text gray-text align-center">Economy</p>
+                        <p class="d7-dynamic-text light-blue-text align-center">Pending</p>
+                    </mj-text>
+                </mj-column>
+                <mj-column>
+                    <mj-text>
+                        <p class="l1-label green-text align-center mb-1">Arrival</p>
+                        <p class="d2-dynamic-bold-text gray-text align-center">Friday 01 JUL
+                            <span class="l1-label blue-text">5:35 PM</span>
+                            <span class="gray-text">MDT</span>
+                        </p>
+                        <p class="d2-dynamic-bold-text gray-text align-center pt-1">Platform:
+                            <span class="blue-text">2</span>
+                        </p>
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <mj-section css-class="segment-row no-border">
+                <mj-column>
+                    <mj-text>
+                        <p class="d4-dynamic-text gray-text align-left">CO2 Emission - 283.23 lbs/23.23 kgs</p>
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <mj-section css-class="segment-row no-border">
+                <mj-column>
+                    <mj-text>
+                        <div class="note p-2">
+                            <p class="l1-label blue-text align-left">Notes:</p>
+                            <p class="d3-dynamic-text gray-text align-left">
+                                Please include a copy if this receipt with your expense report.
+                            </p>
+                        </div>
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <mj-section css-class="segment-row no-border">
+                <mj-column>
+                    <mj-text>
+                        <p class="d4-dynamic-text dark-gray-text align-left">
+                            Get additional flight details and mobile flight alerts with
+                            <a href="https://google.com" target="_blank"
+                               class="d2-dynamic-text blue-text">TripSource</a>
+                        </p>
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+        </mj-wrapper>
+    </mj-body>
+</mjml>

@@ -14,7 +14,8 @@
     .l3-label { font-size: 11pt; font-family: Arial,Sans-Serif; color: #222; }
     .l4-label { font-size: 9pt; font-family: Arial,Sans-Serif; font-weight: 700; text-transform: uppercase; }
 
-    .abbr-big-text { font-size: 54pt; font-family: Arial, Sans-Serif; font-weight: 700; }
+    .abbr-big-text { font-size: 54pt; font-family: Arial, Sans-Serif; font-weight: 700; text-transform: uppercase; }
+    .abbr-small-text { font-size: 22pt; font-family: Arial, Sans-Serif; font-weight: 700; text-transform: uppercase; }
 
     .d1-dynamic-bold-text { font-size: 14pt; font-family: Arial, Sans-Serif; font-weight: 700; }
     .d2-dynamic-bold-text { font-size: 12pt; font-family: Arial, Sans-Serif; font-weight: 700; }
