@@ -1,5 +1,5 @@
 <mj-style>
-    * {line-height: 1; }
+    * {line-height: 1.2; }
     .t1-title {font-size: 18pt; font-family: Arial,Sans-Serif; font-weight: 700; text-transform: uppercase; color:
     #000066;}
     .t2-title {font-size: 18pt; font-family: Arial,Sans-Serif; font-weight: 500; color: #5A88C6;}

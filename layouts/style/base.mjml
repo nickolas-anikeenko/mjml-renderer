@@ -11,7 +11,7 @@
     .segment-wrapper-border-light-gray {border-left: 5px solid #e7e7e7;}
     .segment-wrapper-border-yellow {border-left: 5px solid #f2c402;}
     .segment-wrapper-border-purple {border-left: 5px solid #770053;}
-    .segment-wrapper-border-green {border-left: 5px solid #3acf19;}
+    .segment-wrapper-border-green {border-left: 5px solid #66c01e;}
     .segment-wrapper-border-orange {border-left: 5px solid #eca600;}
 
     .segment-title { padding: 5px 15px; }
@@ -29,7 +29,7 @@
     .light-gray-text { color: #e7e7e7 !important; }
     .yellow-text { color: #f2c402 !important; }
     .purple-text { color: #770053 !important; }
-    .green-text { color: #3acf19 !important; }
+    .green-text { color: #66c01e !important; }
     .orange-text { color: #eca600 !important; }
 
     .white-bg { background-color: #fff; }
@@ -40,7 +40,7 @@
     .dark-gray-bg { background-color: #848488 !important; }
     .yellow-bg { background-color: #f2c402 !important; }
     .purple-bg { background-color: #770053 !important; }
-    .green-bg { background-color: #3acf19 !important; }
+    .green-bg { background-color: #66c01e !important; }
     .orange-bg { background-color: #eca600 !important; }
 
     .m-0 {margin: 0 !important; }
