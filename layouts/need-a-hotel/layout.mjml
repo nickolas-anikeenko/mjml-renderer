@@ -2,7 +2,6 @@
     <mj-head>
         <mj-include path="../style/base.mjml"/>
         <mj-include path="../style/format.mjml"/>
-        <mj-include path="../style/tables.mjml"/>
     </mj-head>
     <mj-body width="640px">
         <mj-wrapper css-class="segment-wrapper segment-wrapper-border-orange" padding="0">
