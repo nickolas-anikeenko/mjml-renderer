@@ -13,9 +13,9 @@
                     </mj-text>
                 </mj-column>
             </mj-section>
-            <mj-section padding="0" css-class="padding-0">
+            <mj-section css-class="segment-header light-gray-bg">
                 <mj-column>
-                    <mj-table css-class="segment-header light-gray-bg">
+                    <mj-table>
                         <tr>
                             <td class="l2-label blue-text">Hertz Rent-A-Car</td>
                             <td class="align-right">
