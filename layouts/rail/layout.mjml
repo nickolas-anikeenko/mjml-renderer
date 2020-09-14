@@ -7,15 +7,15 @@
     <mj-body width="640px">
         <mj-wrapper css-class="segment-wrapper segment-wrapper-border-purple" padding="0">
             <mj-section css-class="segment-title purple-bg">
-                <mj-column padding="0">
+                <mj-column>
                     <mj-text>
                         <h1 class="segment-title-h1 white-text align-left">Rail</h1>
                     </mj-text>
                 </mj-column>
             </mj-section>
-            <mj-section padding="0" css-class="padding-0">
+            <mj-section css-class="segment-header light-gray-bg">
                 <mj-column>
-                    <mj-table css-class="segment-header light-gray-bg">
+                    <mj-table>
                         <tr>
                             <td class="l2-label blue-text">Deutsche Bahn 2132</td>
                             <td class="align-right">
@@ -31,17 +31,16 @@
                 <mj-column>
                     <mj-table>
                         <tr class="columns-3">
-                            <td class="column abbr-small-text blue-text align-center upper">Denver</td>
-                            <td class="column d1-dynamic-bold-text light-blue-text align-center">1h 50m</td>
-                            <td class="column abbr-small-text blue-text align-center upper">Glenwood Springs</td>
-                        </tr>
-                        <tr class="columns-3">
-                            <td class="column d3-dynamic-text gray-text align-center">
-                                Union Station Deutsche Bahn Denver
+                            <td class="column">
+                                <p class="abbr-small-text blue-text align-center upper">Denver</p>
+                                <p class="d4-dynamic-text gray-text align-center">
+                                    Union Station Deutsche Bahn Denver
+                                </p>
                             </td>
-                            <td class="column"></td>
-                            <td class="column d3-dynamic-text gray-text align-center">
-                                Glenwood Springs Station
+                            <td class="column d1-dynamic-bold-text light-blue-text align-center">1h 50m</td>
+                            <td class="column">
+                                <p class="abbr-small-text blue-text align-center upper">Glenwood Springs</p>
+                                <p class="d4-dynamic-text gray-text align-center">Glenwood Springs Station</p>
                             </td>
                         </tr>
                     </mj-table>
