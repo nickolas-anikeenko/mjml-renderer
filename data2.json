@@ -1,0 +1,51 @@
+{
+  "leg": {
+    "vendorCode": "BA2036",
+    "vendorLegNumber": "1",
+    "terminal": "D",
+    "gate": "E",
+    "startTime": "2019-09-05T04:45:47+01:00",
+    "flight": {
+      "title": "Delta Air Lines DL1110",
+      "confirmationNumber": "HQQ7YD",
+      "class": "Economy",
+      "departure": {
+        "time": "2019-09-05T04:45:47+01:00",
+        "terminal": "D",
+        "airport": {
+          "code": "MCO",
+          "name": "Orlando International Airport",
+          "city": "Orlando",
+          "region": "FL",
+          "country": "United States"
+        }
+      },
+      "arrival": {
+        "time": "2019-09-05T17:57:53+00:00",
+        "airport": {
+          "code": "LGW",
+          "name": "Gatwick",
+          "city": "London",
+          "region": null,
+          "country": "United Kingdom"
+        }
+      },
+      "duration": {
+        "hours": 8,
+        "minutes": 5
+      }
+    }
+  },
+  "traveler": {
+    "tiam": {
+      "firstName": "Ryan",
+      "lastName": "Reynolds",
+      "title": "Mr"
+    },
+    "trip": {
+      "firstName": "Ryan",
+      "lastName": "Reynolds"
+    }
+  }
+}
+

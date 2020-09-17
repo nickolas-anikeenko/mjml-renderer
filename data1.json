@@ -1,0 +1,51 @@
+{
+  "leg": {
+    "vendorCode": "DL1110",
+    "vendorLegNumber": "1",
+    "terminal": "D",
+    "gate": "E",
+    "startTime": "2019-09-05T04:45:47+01:00",
+    "flight": {
+      "title": "Delta Air Lines DL1110",
+      "confirmationNumber": "HQQ7YD",
+      "class": "Economy",
+      "departure": {
+        "time": "2019-09-05T04:45:47+01:00",
+        "terminal": "D",
+        "airport": {
+          "code": "ATL",
+          "name": "Hartsfield-Jackson Atlanta Intrnational Airport",
+          "city": "Atlanta",
+          "region": "GA",
+          "country": "United States"
+        }
+      },
+      "arrival": {
+        "time": "2019-09-05T17:57:53+00:00",
+        "airport": {
+          "code": "MCO",
+          "name": "Orlando International Airport",
+          "city": "Orlando",
+          "region": "FL",
+          "country": "United States"
+        }
+      },
+      "duration": {
+        "hours": 1,
+        "minutes": 29
+      }
+    }
+  },
+  "traveler": {
+    "tiam": {
+      "firstName": "Ryan",
+      "lastName": "Reynolds",
+      "title": "Mr"
+    },
+    "trip": {
+      "firstName": "Ryan",
+      "lastName": "Reynolds"
+    }
+  }
+}
+
