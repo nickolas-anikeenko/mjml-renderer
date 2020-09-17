@@ -17,9 +17,9 @@
                     <td class="column l1-label green-text">Airline record locator</td>
                 </tr>
                 <tr class="columns-3">
-                    <td class="column d2-dynamic-bold-text blue-text">Trice WY</td>
+                    <td class="column d2-dynamic-bold-text blue-text">{{trip.firstName}} {{trip.lastName}}</td>
                     <td class="column"></td>
-                    <td class="column d2-dynamic-bold-text blue-text">hqq7yd</td>
+                    <td class="column d2-dynamic-bold-text blue-text">{{trip.recordLocator}}</td>
                 </tr>
             </mj-table>
         </mj-column>

@@ -1,4 +1,4 @@
-<mj-wrapper css-class="segment-wrapper segment-wrapper-border-light-blue mb-4" padding="0">
+<mj-wrapper css-class="segment-wrapper segment-wrapper-border-light-blue mb-4">
     <mj-section css-class="segment-title light-blue-bg">
         <mj-column padding="0">
             <mj-table>
