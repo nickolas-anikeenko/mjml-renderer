@@ -170,16 +170,6 @@
             .columns-5 .column { width: 20%; }
             .columns-6 .column { width: 16.666666666%; }
         </mj-style>
-        <mj-attributes>
-            <mj-accordion border="none" padding="1px"/>
-            <mj-accordion-element icon-wrapped-url="https://i.imgur.com/Xvw0vjq.png"
-                                  icon-unwrapped-url="https://i.imgur.com/KKHenWa.png" icon-height="24px"
-                                  icon-width="24px"/>
-            <mj-accordion-title font-family="Roboto, Open Sans, Helvetica, Arial, sans-serif" background-color="#fff"
-                                color="#031017" padding="15px" font-size="18px"/>
-            <mj-accordion-text font-family="Open Sans, Helvetica, Arial, sans-serif" background-color="#fafafa"
-                               padding="15px" color="#505050" font-size="14px"/>
-        </mj-attributes>
     </mj-head>
     <mj-body width="640px" css-class="pt-4 pb-4">
         <!--Intro-->
@@ -200,67 +190,55 @@
             </mj-section>
         </mj-wrapper>
         <!--Passenger-->
-        <mj-accordion>
-            <mj-accordion-element>
-                <mj-accordion-title>Why use an accordion?</mj-accordion-title>
-                <mj-text>
-                    <div class="mj-accordion-text">
-                        <mj-wrapper css-class="segment-wrapper segment-wrapper-border-blue mb-4">
-                            <mj-section css-class="segment-title blue-bg">
-                                <mj-column padding="0">
-                                    <mj-text>
-                                        <h1 class="segment-title-h1 white-text align-left">
-                                            London, United Kingdom
-                                        </h1>
-                                    </mj-text>
-                                </mj-column>
-                            </mj-section>
-                            <mj-section padding="0" css-class="padding-0">
-                                <mj-column>
-                                    <mj-table css-class="segment-header light-gray-bg">
-                                        <tr class="columns-3">
-                                            <td class="column l1-label green-text">Passenger</td>
-                                            <td class="column"></td>
-                                            <td class="column l1-label green-text">Airline record locator</td>
-                                        </tr>
-                                        <tr class="columns-3">
-                                            <td class="column d2-dynamic-bold-text blue-text">Trice WY</td>
-                                            <td class="column"></td>
-                                            <td class="column d2-dynamic-bold-text blue-text">hqq7yd</td>
-                                        </tr>
-                                    </mj-table>
-                                </mj-column>
-                            </mj-section>
-                            <mj-section css-class="segment-row">
-                                <mj-column>
-                                    <mj-text>
-                                        <p class="b4-notes-text gray-text align-left">
-                                            BE PREPARED! Your trip may require a VISA OR PASSPORT.
-                                            <a href="https://google.com" target="_blank">Click here</a>
-                                            if it does, make sure your passport has at least SIX MONTH of validity
-                                            beyond your return date and at least 2 blank pages.
-                                        </p>
-                                    </mj-text>
-                                </mj-column>
-                            </mj-section>
-                            <mj-section css-class="segment-row no-border">
-                                <mj-column>
-                                    <mj-text>
-                                        <p class="b4-notes-text gray-text align-left">
-                                            We've got your back. You have been enrolled to receive BCD Safety and
-                                            Security
-                                            alerts.
-                                            We well notify you of any critical events that impact your trip.
-                                        </p>
-                                    </mj-text>
-                                </mj-column>
-                            </mj-section>
-                        </mj-wrapper>
-                    </div>
-                </mj-text>
-                </mj-accordion-text>
-            </mj-accordion-element>
-        </mj-accordion>
+        <mj-wrapper css-class="segment-wrapper segment-wrapper-border-blue mb-4">
+            <mj-section css-class="segment-title blue-bg">
+                <mj-column padding="0">
+                    <mj-text>
+                        <h1 class="segment-title-h1 white-text align-left">
+                            London, United Kingdom
+                        </h1>
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <mj-section padding="0" css-class="padding-0">
+                <mj-column>
+                    <mj-table css-class="segment-header light-gray-bg">
+                        <tr class="columns-3">
+                            <td class="column l1-label green-text">Passenger</td>
+                            <td class="column"></td>
+                            <td class="column l1-label green-text">Airline record locator</td>
+                        </tr>
+                        <tr class="columns-3">
+                            <td class="column d2-dynamic-bold-text blue-text">Trice WY</td>
+                            <td class="column"></td>
+                            <td class="column d2-dynamic-bold-text blue-text">hqq7yd</td>
+                        </tr>
+                    </mj-table>
+                </mj-column>
+            </mj-section>
+            <mj-section css-class="segment-row">
+                <mj-column>
+                    <mj-text>
+                        <p class="b4-notes-text gray-text align-left">
+                            BE PREPARED! Your trip may require a VISA OR PASSPORT.
+                            <a href="https://google.com" target="_blank">Click here</a>
+                            if it does, make sure your passport has at least SIX MONTH of validity
+                            beyond your return date and at least 2 blank pages.
+                        </p>
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <mj-section css-class="segment-row no-border">
+                <mj-column>
+                    <mj-text>
+                        <p class="b4-notes-text gray-text align-left">
+                            We've got your back. You have been enrolled to receive BCD Safety and Security alerts.
+                            We well notify you of any critical events that impact your trip.
+                        </p>
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+        </mj-wrapper>
         <!--Travel Summary-->
         <mj-wrapper css-class="segment-wrapper segment-wrapper-border-blue mb-4">
             <mj-section css-class="segment-title blue-bg">
