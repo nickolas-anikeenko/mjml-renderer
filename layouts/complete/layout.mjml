@@ -1,6 +1,7 @@
 <mjml>
     <mj-head>
         <mj-style>
+            body * {-webkit-print-color-adjust: exact !important;}
             h1,h2,h3,h4,h5,h6 {margin: 0 !important; padding: 0 !important; }
             table,tr,th,td,tbody,tfoot,thead { padding: 0 !important; }
             p { padding: 0 !important; margin: 0 !important; }
