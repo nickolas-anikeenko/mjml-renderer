@@ -23,7 +23,18 @@ const compileHandlebars = (content, data): string => {
 }
 
 const compileMjml = (content, layoutPath) => {
-    return mjml(content, {filePath: layoutPath}).html
+    return mjml(content, {
+        filePath: layoutPath,
+        fonts: {},
+        keepComments: false,
+        minify: false,
+        beautify: true,
+        minifyOptions: {
+            collapseWhitespace: true,
+            minifyCSS: true,
+            removeEmptyAttributes: true
+        }
+    }).html
 }
 
 const compileTemplate = async (pathToLayoutDir: string): Promise<string> => {
